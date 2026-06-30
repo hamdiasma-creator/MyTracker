@@ -3,16 +3,24 @@
     "name": "My Tracker",
     "slug": "my-tracker",
     "version": "1.0.0",
-    "sdkVersion": "50.0.0",
-    "android": {
-      "package": "com.hamdiasma.monplanning"
-    },
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
     "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
       "backgroundColor": "#FAF7F4"
+    },
+    "android": {
+      "package": "com.hamdiasma.monplanning",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FAF7F4"
+      }
     },
     "extra": {
       "eas": {
-        "projectId": "89352b46-b94d-44fe-852a-f5c75ccf188b"
+        "projectId": "89352b46-b94d-44fe-..."
       }
     }
   }
